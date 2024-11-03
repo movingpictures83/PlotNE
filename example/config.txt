@@ -1,0 +1,2 @@
+Prefix plugins/PlotNE/example/
+Plugin PlotNE inputfile filtered.rds outputfile NE.pdf
