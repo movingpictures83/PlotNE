@@ -16,6 +16,8 @@ run <- function() {}
 output <- function(outputfile) {
 pdf(outputfile)
 ## ----sd-----------------------------------------------------------------------
+#print(str(myDat))
+write.csv(myDat@quantData$rsem, paste(outputfile, "csv", sep="."))
 plotNE(myDat,xlim=c(0.5,1))
 
 
